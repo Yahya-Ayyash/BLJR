@@ -1,0 +1,138 @@
+body {
+    background-image: url("BG\ IMG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    margin-top: 250px;
+}
+
+h2 {
+    color: #3d67ff;
+}
+
+h1 {
+    position: relative;
+    top: -195px;
+    white-space: nowrap;
+    text-align: left;
+    right: 120px;
+    font-family: "Instrument Sans";
+    color: #2d208a;
+    font-size: 35px;
+}
+
+.gaming {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    white-space: nowrap;
+    position: relative;
+    top: -220px;
+    right: 120px;
+    color: #b1accd;
+}
+
+.Main-card {
+    background: #ffffff;
+    width: 140px;
+    height: 145px;
+    margin: 0 auto;
+    padding: 190px 150px 150px 150px;
+    margin-bottom: 560px;
+    border-radius: 24px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upper {
+    display: flex;
+    position: relative;
+    top: -175px;
+    right: 120px;
+}
+
+.Aeoculus-Image {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.emailtext {
+    position: relative;
+    font-family: "Instrument Sans";
+    color: #2d208a;
+    bottom: 225px;
+    right: 120px;
+}
+
+.inputyouremail {
+    border-color: 1px solid rgba(177, 172, 205);
+    border-radius: 4px;
+    bottom: 230px;
+    right: 120px;
+    position: relative;
+    width: 350px;
+    height: 33px;
+}
+
+.inputyouremail:focus {
+    outline: 2px solid #3557cf;
+    color: rgb(49, 49, 183);
+    transition: all 0.1s;
+}
+
+.passwordtext {
+    position: relative;
+    font-family: "Instrument Sans";
+    color: #251b71;
+    bottom: 225px;
+    right: 120px;
+}
+
+.inputyourpassword {
+    border-color: 1px solid rgba(177, 172, 205);
+    border-radius: 4px;
+    bottom: 230px;
+    right: 120px;
+    position: relative;
+    width: 350px;
+    height: 33px;
+}
+
+.inputyourpassword:focus {
+    outline: 2px solid #3459df;
+    color: blue;
+    transition: all 0.1s;
+}
+
+button {
+    top: -200px;
+    position: relative;
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    right: 120px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Instrument Sans";
+    background-color: #3d67ff;
+    color: white;
+}
+
+button:hover {
+    background-color: #03218b;
+    color: transparent;
+}
+
+button:hover::after {
+    content: "Log In to Aeoculus";
+    color: white;
+    padding-right: 50px;
+}
+

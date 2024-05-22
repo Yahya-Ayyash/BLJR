@@ -1,0 +1,23 @@
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 96px;
+    color: #0b7265;
+    gap: 10px;
+}
+
+.Description {
+    size: 24px;
+    color: black;
+    padding: 0px 20px;
+    border-left: 2px solid #0b7265;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    padding: 18px 32px 18px 32px;
+    background-color: #0b7265;
+    color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: none;
+}

@@ -1,0 +1,14 @@
+.img-carousel {
+    height: 75vh;
+    object-fit: cover;
+}
+
+i {
+    font-size: 3rem;
+    color: rgb(80, 114, 224);
+}
+
+.card-img-top{
+    height: 320px;
+    
+}

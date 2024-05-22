@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0pc;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.sky {
+    background: #90D7FF;
+    flex: 1;
+}
+
+.grass {
+    background: #7BD279;
+    flex: 1;
+}
+
+.road {
+    background: #838383;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.marka {
+    border: 10px dashed white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+}
+
+.mario {
+    animation-name: marioRun;
+    animation-duration: 10s;
+    
+}
+
+.bowser {
+    animation-name: marioRun;
+    animation-duration: 20s;
+
+}
+
+@keyframes marioRun {
+    from {
+        translate: -120px;
+    }
+
+    to {
+        translate: 1000px;
+    }
+}

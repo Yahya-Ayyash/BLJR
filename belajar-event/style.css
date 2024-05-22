@@ -1,0 +1,23 @@
+.bullet {
+    background-color: rgb(10, 114, 114);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    border-radius: 100px;
+    animation: nembak 3s linear;
+}
+
+.shooter {
+    cursor: pointer;
+}
+
+@keyframes nembak {
+    from {
+        translate: 0 0;
+    }
+    to {
+        translate: 2000px 0;
+    }
+}

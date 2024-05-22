@@ -1,0 +1,15 @@
+img {
+    width: 100%;
+}
+
+.card-image,
+.card-video {
+    border-bottom: 1px solid black;
+    padding-bottom: 18px;
+    margin-bottom: 12px;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}

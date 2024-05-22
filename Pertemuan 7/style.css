@@ -1,0 +1,32 @@
+body {
+    background-image: url();
+    background-size: cover;
+    padding-top: 300px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    
+}

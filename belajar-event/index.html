@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peashooter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bullet {
+            background-color: rgb(10, 114, 114);
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 40px;
+            right: 35px;
+            border-radius: 100px;
+            animation: nembak 3s linear;
+        }
+
+        .shooter {
+            cursor: pointer;
+        }
+
+        @keyframes nembak {
+            from {
+                translate: 0 0;
+            }
+
+            to {
+                translate: 2000px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section style="position: relative; width: fit-content;">
+        <img class="shooter"
+            src="https://www.spriters-resource.com/resources/sheet_icons/82/84687.png?updated=1478175283" alt="">
+
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

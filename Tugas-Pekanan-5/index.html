@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">eewwe
+    <title>Tugas-Pekanan-5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group p {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Tugas Pekanan 5</h2>
+
+        <div class="form-group">
+            <label for="answer1">Soal 1:</label>
+            <p id="answer1"></p>
+        </div>
+
+        <div class="form-group">
+            <label for="answer2">Soal 2:</label>
+            <p id="answer2"></p>
+        </div>
+
+        <div class="form-group">
+            <label for="answer3">Soal 3:</label>
+            <p id="answer3"></p>
+        </div>
+
+        <div class="form-group">
+            <label for="answer4">Soal 4:</label>
+            <p id="answer4"></p>
+        </div>
+
+    </div>
+
+    <script>
+        // Soal 1
+        const kalimat = 'Daripada hujan "emas" di negeri orang, lebih baik hujan "batu" di negeri sendiri.';
+        document.getElementById('answer1').innerText = kalimat;
+
+        // Soal 2
+        const quantity = Math.floor(Math.random() * 9) + 2;
+        const price = Math.floor(Math.random() * 11) + 10;
+        const sentence = `Mom bought us ${quantity} Croissant Almonds with $${price} each. So mom spent total of $${quantity * price}.`;
+        document.getElementById('answer2').innerText = sentence;
+
+        // Soal 3
+        const trafficLight = 'stop';
+        document.getElementById('answer3').innerText = trafficLight;
+
+        // Soal 4
+        const umur = 25;
+        document.getElementById('answer4').innerText = umur < 30 && umur > 20 ? 'Anda telah cukup umur' : (umur < 20 && umur % 2 !== 0 ? 'Umur Anda spesial' : '');
+    </script>
+</body>
+
+</html>

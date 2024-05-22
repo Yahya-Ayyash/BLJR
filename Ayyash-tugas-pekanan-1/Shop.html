@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+    <link rel="stylesheet" href="order1.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="nexa-logo.svg" alt=""></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Bundles.html">Bundles</a></li>
+                <li><a href="Shop.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pesan-form">
+            <h2>Formulir Pemesanan</h2>
+            <form id="orderForm" action="https://mabrur.kodeintekno.com/order-detail.html" method="GET">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+        
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]+" required placeholder="Enter your phone number (only digits)">
+                
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required placeholder="Enter your address"></textarea>
+        
+                <label for="deliveryMethod">Delivered by:</label>
+                <input type="radio" id="regularShipping" name="deliveryMethod" value="Regular shipping truck" checked>
+                <label for="regularShipping">Regular shipping truck</label>
+        
+                <input type="radio" id="drone" name="deliveryMethod" value="Drone (+ $100)">
+                <label for="drone">Drone (+ $100)</label>
+        
+                <p>Note: All include super tough frame protector</p>
+        
+                <button type="submit">PROCEED TO PURCHASE</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Website Kami. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-in-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: blue; 
+}
+
+.eyebrow {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10em;
+    width: fit-content;
+    color: #000000;
+    text-align: center;
+
+}
+
+.left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 64px;
+    background: #20DA91;
+
+}
+
+
+
+.right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-container img {
+    width: 100%;
+    background: #C79BFC;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: white; /* Set background color to white */
+    margin: 0; /* Remove default margin */
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%); 
+    overflow: hidden; 
+    position: relative;
+}
+
+.btn2 {
+    background-color: yellow;
+    border: #000000 3px;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 12px;
+    display: flex;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 0 0 black;
+}
+
+.btn2:hover {
+    translate: 5px, -5px;
+    box-shadow: 0 0 0 black;
+}
+
+.btn2:active {
+    translate: 0 0;
+    box-shadow: 0 0 0 black;
+}
+
+.orang 
+.bintang-kuning
+.teks-lingkaran {
+    position: absolute;
+}
+
+
+
+
+
+@keyframes c {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: aqua;
+    }
+}
+
+@keyframes l {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgb(237, 240, 71);
+    }
+}
+
+@keyframes u {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgb(236, 75, 75);
+    }
+}
+
+@keyframes b {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgb(71, 240, 71);
+    }
+}
+
+@keyframes c {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgba(91, 206, 255, 1);
+    }
+}
+
+.c {
+    animation-name: c;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes l {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgba(247, 222, 93, 1);
+    }
+}
+
+.l {
+    animation-name: l;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes u {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgba(255, 126, 126, 1);
+    }
+}
+
+.u {
+    animation-name: u;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes b {
+    from {
+        fill: white;
+    }
+
+    to {
+        fill: rgba(125, 249, 122, 1);
+    }
+}
+
+.b {
+    animation-name: b;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

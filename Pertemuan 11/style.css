@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.contact-nav{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    padding: 12px 64px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+}
+.location img{
+    width: 20px;
+    height: 20px;
+}
+.content-fill{
+    display: flex;
+    flex-direction: column;
+}
+
+.call{
+    display: flex;
+    color: blue;
+    gap: 8px;
+
+}
+.call img{
+    width: 20px;
+    height: 20px
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 64px;
+}
+.menu img{
+    width: 180px;
+    height: 25px;
+}
+
+.hamburger{
+    display: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.choice-to{
+    text-decoration: none;
+    color: black;
+}
+
+.btn1{
+    text-decoration: none;
+    color:white;
+    background-color: #4762FF;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 18px 24px;
+    gap: 10px;
+    width: 266px;
+    height: 20px;
+    text-align: center;
+}
+
+.left{
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 32px;
+padding: 0 64px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.right img{
+    width: 100%;
+}
+
+.main-title{
+font-size: 60px;
+max-width: 635px;
+line-height: 75px;
+}
+
+.hero{
+    display: flex;
+    padding: 48px 0;
+}
+
+.des{
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 400px;
+}
+
+.advance-head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.left-maps{
+    flex: 1;
+ }
+
+ .right-maps{
+    flex: 1;
+ }
+ .card{
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border-radius: 15px;
+    margin: 50px;
+ }
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding: 0 24px;
+}
+
+.card-title{
+    font-size: 24px;
+    max-width: 370px;
+}
+
+.info img{
+    height: 20px;
+}
+
+.footer-logo{
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    padding-bottom: 100px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-fill{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.footer-logo{
+    height: 30px;
+}
+
+.advance-fill-nomor{
+    position: absolute;
+    top: 1100px;
+}
+
+.advance-title{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.advance-sub{
+    font-size: 18px;
+
+}
+
+.advance{
+    display: flex;
+    flex-direction:column;
+    gap: 33px;
+}
+
+.advance-fill{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 20px;
+    justify-content: center;
+
+}
+ .advance-fill-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F6FA;
+    max-width: 224px;
+    border-radius: 9px;
+    height: 320px;
+    gap: 12px;
+    padding: 20px;
+    line-height: 24px;
+ }
+
+ .fill-head{
+    font-size: 24px;
+ }
+
+ .fill-content{
+    font-size: 16px;
+    width: 240px;
+    height: fit-content;
+    line-height: 24px;
+ }
+
+ .maps{
+    display: flex;
+    flex-direction:row ;
+    background-image: url(media.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+ }
+
+
+
+@media (max-width: 640px){
+    .location{
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .call{
+        display: none;
+    }
+    .hamburger{
+        display:flex;
+        flex-direction: row;
+        width: 10px
+    }
+
+    .menu-list{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .advance-fill{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+
+    .advance-fill-nomor{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-around;
+        width: 90px;
+        top: -6em;
+    }
+
+    .card{
+        width: 400px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info img{
+        width: 20px;
+    }
+
+
+    .card-title{
+        max-width: 300px;
+        text-align: left;
+        padding: 10px 50px 0 ;
+
+    }
+
+    .maps-image{
+        width: 400px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer img{
+        width: 200px;
+    }
+
+    .info-item img{
+        width: 20px;
+        padding: 0 20px;
+    }
+}

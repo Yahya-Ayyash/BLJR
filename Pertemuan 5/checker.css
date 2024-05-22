@@ -1,0 +1,12 @@
+.square {
+    background-color: #DDDD;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+.baris {
+    display: flex;
+}
